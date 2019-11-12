@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AlamofireSwiftUI.xcodeproj">
+      location = "group:/Users/victors/Documents/Developer/AlamofireSwiftUI/AlamofireSwiftUI/ContentView.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/victors/Documents/Developer/AlamofireSwiftUI/AlamofireSwiftUI/Observer.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
