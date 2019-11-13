@@ -31,16 +31,34 @@ class Observer: ObservableObject {
     
     AF.request("\(url)\(count)").validate().responseJSON { response in
       
-      switch response.result {
-        
-      case .success(let value):
+// My code with SwiftyJSON
 
+      switch response.result {
+      case .success(let value):
         let json = JSON(value)
         self.jokes += json["value"].map { JokesData(id: $0.1["id"].intValue, joke: $0.1["joke"].stringValue) }
-        
       case .failure(let error):
         print(error.localizedDescription)
       }
+
+// Original code with manual parsing!!!!!!
+
+//      if let json = response.result.value {
+//          if  (json as? [String : AnyObject]) != nil{
+//              if let dictionaryArray = json as? Dictionary<String, AnyObject?> {
+//                  let jsonArray = dictionaryArray["value"]
+//                  if let jsonArray = jsonArray as? Array<Dictionary<String, AnyObject?>>{
+//                      for i in 0..<jsonArray.count{
+//                          let json = jsonArray[i]
+//                          if let id = json["id"] as? Int, let jokeString = json["joke"] as? String{
+//                          self.jokes.append(JokesData(id: id, joke: jokeString))
+//                          }
+//                      }
+//                  }
+//              }
+//          }
+//      }
+      
     }
   }
 }
