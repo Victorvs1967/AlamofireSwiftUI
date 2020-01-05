@@ -7,21 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D30D78CA237B566100EE5AD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D78C8237B566000EE5AD4 /* ContentView.swift */; };
-		D30D78CB237B566100EE5AD4 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30D78C9237B566000EE5AD4 /* Observer.swift */; };
 		D3ACFC7B237B418800E94B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACFC7A237B418700E94B0C /* AppDelegate.swift */; };
 		D3ACFC7D237B419000E94B0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACFC7C237B419000E94B0C /* SceneDelegate.swift */; };
 		D3ACFC81237B432000E94B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3ACFC80237B432000E94B0C /* Assets.xcassets */; };
 		D3ACFC84237B432600E94B0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3ACFC83237B432600E94B0C /* Preview Assets.xcassets */; };
 		D3ACFC87237B432700E94B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3ACFC85237B432700E94B0C /* LaunchScreen.storyboard */; };
+		D3C2CDEE23C256060052254A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2CDED23C256060052254A /* ContentView.swift */; };
+		D3C2CDF023C2564B0052254A /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2CDEF23C2564B0052254A /* Observer.swift */; };
 		F6E57C3D4C90FEC3974E63C7 /* Pods_AlamofireSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9862AD2CE09FC1FC707698B /* Pods_AlamofireSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		330E95146472E4506A3DCDAB /* Pods-AlamofireSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-AlamofireSwiftUI/Pods-AlamofireSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		A9862AD2CE09FC1FC707698B /* Pods_AlamofireSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D30D78C8237B566000EE5AD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = /Users/victors/Documents/Developer/AlamofireSwiftUI/AlamofireSwiftUI/ContentView.swift; sourceTree = "<absolute>"; };
-		D30D78C9237B566000EE5AD4 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Observer.swift; path = /Users/victors/Documents/Developer/AlamofireSwiftUI/AlamofireSwiftUI/Observer.swift; sourceTree = "<absolute>"; };
 		D3ACFC77237B417300E94B0C /* AlamofireSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3ACFC7A237B418700E94B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3ACFC7C237B419000E94B0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +27,8 @@
 		D3ACFC83237B432600E94B0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3ACFC86237B432700E94B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3ACFC88237B432800E94B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C2CDED23C256060052254A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3C2CDEF23C2564B0052254A /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		E66CCD26C1ACC36D4DFF0333 /* Pods-AlamofireSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireSwiftUI/Pods-AlamofireSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,8 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				D3ACFC7A237B418700E94B0C /* AppDelegate.swift */,
-				D30D78C8237B566000EE5AD4 /* ContentView.swift */,
-				D30D78C9237B566000EE5AD4 /* Observer.swift */,
+				D3C2CDED23C256060052254A /* ContentView.swift */,
+				D3C2CDEF23C2564B0052254A /* Observer.swift */,
 				D3ACFC7C237B419000E94B0C /* SceneDelegate.swift */,
 				D3ACFC80237B432000E94B0C /* Assets.xcassets */,
 				D3ACFC85237B432700E94B0C /* LaunchScreen.storyboard */,
@@ -218,9 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3ACFC7B237B418800E94B0C /* AppDelegate.swift in Sources */,
-				D30D78CB237B566100EE5AD4 /* Observer.swift in Sources */,
+				D3C2CDF023C2564B0052254A /* Observer.swift in Sources */,
+				D3C2CDEE23C256060052254A /* ContentView.swift in Sources */,
 				D3ACFC7D237B419000E94B0C /* SceneDelegate.swift in Sources */,
-				D30D78CA237B566100EE5AD4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
